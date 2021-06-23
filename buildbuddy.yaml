@@ -6,4 +6,4 @@ actions:
         branches: [ "master" ]
       pull_request:
         branches: [ "master" ]
-    bazel_commands: [ "bazel --bazelrc=.bazelrc.remote test --repository_cache=/github/home/.bazel_caches --test_verbose_timeout_warnings --flaky_test_attempts=3 -k //..." ]
+    bazel_commands: [ "bazel --bazelrc=.bazelrc.remote test --test_verbose_timeout_warnings --flaky_test_attempts=3 -k //..." ]
